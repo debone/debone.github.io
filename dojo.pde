@@ -9,7 +9,7 @@ int highScore = 0;
 void setup() {
   size(700, 450);
   
-  textFont(loadFont("ComicSansMS"),48);
+  textFont(loadFont("comic.ttf"),48);
  
   seno = new Player();
   game = new Game();

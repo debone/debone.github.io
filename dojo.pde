@@ -1,4 +1,4 @@
-/* @pjs font="ComicSansMS.ttf"; */
+/* @pjs font="comic.ttf"; */
 
 Player seno;
 Game game;
@@ -47,7 +47,7 @@ void keyPressed(){
          game.gameState=1;
          loop(); 
       }
-   }else if(game.gameState==2){
+   }else{
       if(key=='r'){
          setup();
          game.gameState=1;

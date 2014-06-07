@@ -36,7 +36,6 @@ void update() {
       }
     }
   }else if(game.gameState==2){
-    noiseSeed(ceil(random(1000)));
     noLoop();
   }
 }
@@ -49,6 +48,7 @@ void keyPressed(){
       }
    }else{
       if(key=='r'){
+         noiseSeed(ceil(random(1000)));
          setup();
          game.gameState=1;
          loop(); 

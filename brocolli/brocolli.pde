@@ -18,7 +18,7 @@ void draw(){
   color[] colours = {#364119,#607324, #B3C14F, #D6DC82, #F0F4C2};
   noStroke();
   for(int i =0; i<1000; i++){
-    leaf = floor(noise(-x/step*0.5,x/step*0.5)*step);
+    leaf = floor(random(-x/step*0.5,x/step*0.5))*step;
     if(leaf > 100){
        leaf = 100; 
     }else if(leaf < -100){

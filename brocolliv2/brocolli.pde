@@ -25,7 +25,7 @@ void draw(){
 void drawTree(float posX, float posY){
   pushMatrix();
   translate(posX,posY);
-  scale(0.3f);
+  scale(0.4f);
   color[] colours = {#364119,#607324, #B3C14F, #D6DC82, #F0F4C2};
   noStroke();
   for(int i =0; i<1000; i++){
